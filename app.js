@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-        request.open('GET', 'http://localhost:3001/recipes', true)
+        request.open('GET', 'https://github.com/nikkajayme/crescendo_test_1/.mockend.json', true)
         request.onload = function () {
 
             const app = document.getElementById('root');
