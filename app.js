@@ -12,7 +12,7 @@ var request = new XMLHttpRequest();
             var data = JSON.parse(this.response)
 
             if (request.status >= 200 && request.status < 400) {
-                data.forEach((recipes) => {
+                data.recipes.forEach((recipes) => {
                     const card = document.createElement('div')
                     card.setAttribute('class', 'card')
 
